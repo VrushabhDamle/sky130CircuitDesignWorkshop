@@ -28,3 +28,30 @@ What was learnt:
 •	Fermi Potential Equation
 
 ![fermi potential equation](https://user-images.githubusercontent.com/89193562/132532339-de5b4411-323e-48b2-bb3d-68b20e54dcef.JPG)
+
+
+**Part 2: NMOS Resistive region and Saturation region of operation**
+
+What was learnt:
+
+•	Theory about Resistive region
+
+•	Formula for charge induced at any point ‘x’
+
+![induced charge at x](https://user-images.githubusercontent.com/89193562/132532646-03b38d68-de8d-45b1-92cf-7c240f922d2e.JPG)
+
+•	First order analysis
+
+•	Gate oxide capacitance formula
+
+![gate oxide capacitance formula](https://user-images.githubusercontent.com/89193562/132532783-30c5d29d-4405-4833-a4b8-942d4787f50d.JPG)
+
+•	The two kinds of current: Drift current and Diffusion current
+
+•	Drift current (Id) formula
+
+![drift current formula](https://user-images.githubusercontent.com/89193562/132532906-9238aba4-134e-4b1f-a00b-f7e126479071.JPG)
+
+•	Condition on Vds for the MOSFET to be in linear/resistive region or saturation/pinch-off region
+
+•	Dependance of Id on Vds in pinch-off region
