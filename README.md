@@ -9,5 +9,7 @@
 •	Concept of Strong Inversion
 •	Impact of Source-to-bulk Voltage (Vsb)
 •	Threshold Voltage Equation
+
 •	Body Effect Coefficient expression
+
 •	Fermi Potential Equation
