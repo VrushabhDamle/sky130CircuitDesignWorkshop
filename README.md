@@ -17,7 +17,8 @@
 •	Impact of Source-to-bulk Voltage (Vsb)
 
 •	Threshold Voltage Equation
-   ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132531640-7a0d29b4-ab20-419f-8c69-019ba1dde197.JPG)
+
+V_t=V_t0+ϒ[(√(|-2ϕ_f+V_sb | ))-√(|-2ϕ_f | )]
 
 •	Body Effect Coefficient expression
 
