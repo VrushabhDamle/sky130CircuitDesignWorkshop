@@ -81,8 +81,8 @@ Lab Activity:
 
 ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
 
-The snap shot of the terminal window for Day1 activity
+Figure 1. The snap shot of the terminal window for Day1 activity
 
 ![day1 spice model](https://user-images.githubusercontent.com/89193562/132533338-e2298388-5d87-49a2-b5e2-6156ce69c46d.JPG)
 
-The snap shot of the output window of the Day1 activity
+Figure 2. The snap shot of the output window of the Day1 activity
