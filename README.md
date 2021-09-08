@@ -85,7 +85,7 @@ Figure 1. The snap shot of the terminal window for Day1 activity
 
 ![1631113614117](https://user-images.githubusercontent.com/89193562/132535503-e272eee6-35b4-4763-832c-367f36209678.jpg)
 
-Figure 2. SPICE netlist for our NMOS
+Figure 2. The snap shot of SPICE netlist for our NMOS
 
 ![day1 spice model](https://user-images.githubusercontent.com/89193562/132533338-e2298388-5d87-49a2-b5e2-6156ce69c46d.JPG)
 
