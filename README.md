@@ -55,3 +55,34 @@ What was learnt:
 •	Condition on Vds for the MOSFET to be in linear/resistive region or saturation/pinch-off region
 
 •	Dependance of Id on Vds in pinch-off region
+
+
+**Part 3: Introduction to SPICE**
+
+What was learnt:
+
+•	SPICE model parameters
+
+•	SPICE simulation flow diagram
+
+![spice workflow](https://user-images.githubusercontent.com/89193562/132533155-7affa537-beb3-4aa4-8eab-b4ff3aaab64d.JPG)
+
+•	SPICE netlist for our NMOS
+
+•	Definition of nodes and the method to identify them
+
+•	SPICE syntax
+
+•	Method to save SPICE model
+
+•	Method to write code for SPICE simulation
+
+Lab Activity:
+
+![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
+
+The snap shot of the terminal window for Day1 activity
+
+![day1 spice model](https://user-images.githubusercontent.com/89193562/132533338-e2298388-5d87-49a2-b5e2-6156ce69c46d.JPG)
+
+The snap shot of the output window of the Day1 activity
