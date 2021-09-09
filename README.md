@@ -13,23 +13,60 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 
 •	NMOS design and specifications
 
+- It is a four terminal deive
+- It consists of a P-substrate body
+- An isolation region created from SiO2 is present
+- n+ diffusion region is present near the SiO2 layer
+- It has a Gate oxide layer
+- A Poly-Si or metal gate layer is added on top of the gate oxide layer
+- There are a few abbreviations:
+  - G means Gate
+  - S means Source
+  - D means Drain
+  - B means Body or Bulk
+
+![1631113926996](https://user-images.githubusercontent.com/89193562/132697108-70c1704e-7389-4d04-84c3-189d945e04d5.jpg)
+
+Figure 1. The snap shot of an NMOS construction
+
 •	Threshold Voltage (Vt)
+
+  - The 'Vgs' voltage at which 'Strong Inversion' occurs is known as Threshold Voltage (Vt)
 
 •	Concept of Strong Inversion
 
+  - The phenomenon at which a part of the P-substrate becomes N-substrate (due to the high Vgs value) is called 'Strong Inversion'
+
 •	Impact of Source-to-bulk Voltage (Vsb)
+
+  - In presence of substrate bias voltage 'Vsb', an additional potential is required for strong inversion to occur
 
 •	Threshold Voltage Equation
 
 ![Threshold voltage equation](https://user-images.githubusercontent.com/89193562/132532135-3de1b633-d02f-48b0-b9c6-030c40f2c30a.JPG)
 
+where
+  - Vto is the Threshold Voltage when Vsb = 0
+  - Vto is a function of manufacturing voltage
+  - ϒ is the body effect coefficient and it expresses the impact of changes in body bias 'Vsb' (unit of ϒ is V^0.5)
+  - фf is the Fermi Potential
+
 •	Body Effect Coefficient expression
 
 ![body effect coeffecient equation](https://user-images.githubusercontent.com/89193562/132532303-8b6fda87-3bc7-48ba-a99b-c7ffe5c4a969.JPG)
 
+where
+  - εsi is the relative permitivity of silicon (=11.7)
+  - NA is the doping concentration
+  - q is the charge of an electron
+  - Cox is the oxide capacitance
+
 •	Fermi Potential Equation
 
 ![fermi potential equation](https://user-images.githubusercontent.com/89193562/132532339-de5b4411-323e-48b2-bb3d-68b20e54dcef.JPG)
+
+where
+  - ni is the intrinsic doping parameter for the substrate
 
 
 ## **Part 2: NMOS Resistive region and Saturation region of operation**
@@ -37,6 +74,14 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 ### **_What was learnt:_**
 
 •	Theory about Resistive region
+  - Since, Vgs=Vt, the changes that occur at different voltages of 'Vgs>Vt' are observed
+  - In the channel, induced charge (Qi) α (Vgs-Vt)
+  - The analysis is performed at Vgs=1V and a small (~0) Vds. Assume Vt=0.45V
+  - In absence of Vds, the voltage across the n-channel was constant byt with application of Vds it is no more constant.
+  - Let the effective channel length be L and 'x' axis be along the channel length and 'y' axis be perpendicular to the channel length
+  - Let V(x) be the voltage at any point 'x' along the channel
+  - Now, Vgs-V(x) is the gate-to-channel voltage at that point
+  - Therefore, in the channel, induced charge at any point 'x' Qi(x) α - ((Vgs-V(x))-Vt)
 
 •	Formula for charge induced at any point ‘x’
 
@@ -48,7 +93,13 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 
 ![gate oxide capacitance formula](https://user-images.githubusercontent.com/89193562/132532783-30c5d29d-4405-4833-a4b8-942d4787f50d.JPG)
 
+where,
+  - εox is the oxide permittivity = 3.97*εo = 3.5*10e-11 F/m
+  - tox is the oxide thickness
+
 •	The two kinds of current: Drift current and Diffusion current
+  - Drift current is the current due to the potential difference
+  - Diffusion current is the current due to difference in carrier concentration
 
 •	Drift current (Id) formula
 
@@ -83,11 +134,7 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 
 ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
 
-Figure 1. The snap shot of the terminal window for Day1 activity
-
-![1631113926996](https://user-images.githubusercontent.com/89193562/132536273-27086fab-f96a-444b-b4f3-88e3ded13be4.jpg)
-
-Figure 2. The snap shot of the NMOS that is used for the activity
+Figure 2. The snap shot of the terminal window for Day1 activity
 
 ![1631113614117](https://user-images.githubusercontent.com/89193562/132535503-e272eee6-35b4-4763-832c-367f36209678.jpg)
 
