@@ -181,4 +181,10 @@ Figure 10. The snap shot of output window for plot between Ids and Vds for short
 
 •	Load curve for PMOS transistor in CMOS inverter
 
+![PMOS load curve](https://user-images.githubusercontent.com/89193562/132680045-00315560-5c42-4a80-a93a-6b28f645eca7.png)
+
 •	Load curve for NMOS transistor in CMOS inverter
+
+![NMOS load curve](https://user-images.githubusercontent.com/89193562/132680062-e4b6e546-8e41-4108-bf3f-39eb6946a5c7.png)
+
+•	Superimposing the load curve of NMOS on the load curve of PMOS and plot Vin vs Vout from the graph obtained
