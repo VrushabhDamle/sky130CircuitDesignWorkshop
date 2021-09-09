@@ -146,3 +146,31 @@ Figure 8. The snap shot of terminal window for plot between Ids and Vds for shor
 ![plot window Id vs Vgs](https://user-images.githubusercontent.com/89193562/132675655-f779b9be-bcee-4d31-8a62-6204bc0bca40.JPG)
 
 Figure 9. The snap shot of output window for plot between Ids and Vds for short channel device without the sweep for vdd
+
+## **Part 2: CMOS voltage transfer characteristics (VTC)**
+
+**_What was learnt:_**
+
+•	Transistor as a switch
+
+•	The working of CMOS
+
+•	What happens when Vin is ‘high’ and equal to ‘vdd’ and what happens when Vin is ‘low’ and equal to ‘0V’
+
+•	The flow of current when Vin is ‘high’ and when Vin is ‘low’
+
+•	Defined terminologies in CMOS inverter
+
+•	By observation:
+
+  -	For the NMOS voltage equations
+  
+  ![NMOS relations](https://user-images.githubusercontent.com/89193562/132678214-102b9070-69f0-4e5b-bf3d-8857a16eb2d3.JPG)
+
+  - For the PMOS voltage equations
+  
+  ![PMOS relations](https://user-images.githubusercontent.com/89193562/132678265-1da0a0fc-12e3-47bb-b4dc-7e290b8210b1.JPG)
+
+  - For the relationship between the currents
+
+  ![current relations](https://user-images.githubusercontent.com/89193562/132678310-f82ca578-2b01-45df-9336-560547917b96.JPG)
