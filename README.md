@@ -101,6 +101,12 @@ where,
   - Drift current is the current due to the potential difference
   - Diffusion current is the current due to difference in carrier concentration
 
+•	The drift current (Id) = velocity of charge carriers * available charge over the channel width
+
+![1631196789430](https://user-images.githubusercontent.com/89193562/132702310-fe28f367-775f-4e17-b28a-a3716fde099b.jpg)
+
+Figure 2. The snap shot of top view of the MOSFET showing the channel width 'W'
+
 •	Drift current (Id) formula
 
 ![drift current formula](https://user-images.githubusercontent.com/89193562/132532906-9238aba4-134e-4b1f-a00b-f7e126479071.JPG)
@@ -134,15 +140,15 @@ where,
 
 ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
 
-Figure 2. The snap shot of the terminal window for Day1 activity
+Figure 3. The snap shot of the terminal window for Day1 activity
 
 ![1631113614117](https://user-images.githubusercontent.com/89193562/132535503-e272eee6-35b4-4763-832c-367f36209678.jpg)
 
-Figure 3. The snap shot of SPICE netlist of the above NMOS
+Figure 4. The snap shot of SPICE netlist of the above NMOS
 
 ![day1 spice model](https://user-images.githubusercontent.com/89193562/132533338-e2298388-5d87-49a2-b5e2-6156ce69c46d.JPG)
 
-Figure 4. The snap shot of the output window of the Day1 activity
+Figure 5. The snap shot of the output window of the Day1 activity
 
 
 # **Day 2: Velocity Saturation and basics of CMOS inverter VTC**
@@ -159,7 +165,7 @@ Finally MOSFET as a switch and the characteristics of CMOS inverter were taught.
 
 ![plot (0)](https://user-images.githubusercontent.com/89193562/132674785-f6e3444f-2e00-45d9-ac47-7f4c8e040074.png)
 
-Figure 5. The snap shot of various regions of operation of NMOS on graph plotted between Ids and Vds.
+Figure 6. The snap shot of various regions of operation of NMOS on graph plotted between Ids and Vds.
 
 
 •	The theory about cut-off region of NMOS.
@@ -172,7 +178,7 @@ Figure 5. The snap shot of various regions of operation of NMOS on graph plotted
 
 ![velocity saturation graph JPG](https://user-images.githubusercontent.com/89193562/132679374-baa32830-fcca-49c3-be54-10b5caf2c5d3.png)
 
-Figure 6. The snap shot of the graph of velocity saturation effect
+Figure 7. The snap shot of the graph of velocity saturation effect
 
 •	The modes of operation for long channel (>250nm) devices and short channel (<250nm) devices.
 
@@ -188,19 +194,19 @@ Figure 6. The snap shot of the graph of velocity saturation effect
 
 ![ngspice command window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675164-206b1eeb-8cba-44a8-af4f-bf4322e37550.JPG)
 
-Figure 7. The snap shot of terminal window for plot between Ids and Vds for short channel device
+Figure 8. The snap shot of terminal window for plot between Ids and Vds for short channel device
 
 ![plot window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675399-e8f69dc7-f222-4e91-81fc-4cb2639213d4.JPG)
 
-Figure 8. The snap shot of output window for plot between Ids and Vds for short channel device
+Figure 9. The snap shot of output window for plot between Ids and Vds for short channel device
 
 ![ngspice Id vs Vgs curve command window](https://user-images.githubusercontent.com/89193562/132675473-18cd0d22-a956-4c4a-978b-e4837c292d70.JPG)
 
-Figure 9. The snap shot of terminal window for plot between Ids and Vds for short channel device without the sweep for vdd
+Figure 10. The snap shot of terminal window for plot between Ids and Vds for short channel device without the sweep for vdd
 
 ![plot window Id vs Vgs](https://user-images.githubusercontent.com/89193562/132675655-f779b9be-bcee-4d31-8a62-6204bc0bca40.JPG)
 
-Figure 10. The snap shot of output window for plot between Ids and Vds for short channel device without the sweep for vdd
+Figure 11. The snap shot of output window for plot between Ids and Vds for short channel device without the sweep for vdd
 
 ## **Part 2: CMOS voltage transfer characteristics (VTC)**
 
@@ -218,7 +224,7 @@ Figure 10. The snap shot of output window for plot between Ids and Vds for short
 
 ![1631186540042](https://user-images.githubusercontent.com/89193562/132681895-fe353e35-c49a-4fcf-a822-640a20898861.jpg)
 
-Figure 11. The snap shot of the circuit diagram of CMOS inverter
+Figure 12. The snap shot of the circuit diagram of CMOS inverter
 
 •	By observation:
 
@@ -238,20 +244,20 @@ Figure 11. The snap shot of the circuit diagram of CMOS inverter
 
 ![PMOS load curve](https://user-images.githubusercontent.com/89193562/132680045-00315560-5c42-4a80-a93a-6b28f645eca7.png)
 
-Figure 12. The snap shot of load curve for PMOS transistor in CMOS inverter
+Figure 13. The snap shot of load curve for PMOS transistor in CMOS inverter
 
 •	Load curve for NMOS transistor in CMOS inverter
 
 ![NMOS load curve](https://user-images.githubusercontent.com/89193562/132680062-e4b6e546-8e41-4108-bf3f-39eb6946a5c7.png)
 
-Figure 13. The snap shot of load curve for NMOS transistor in CMOS inverter
+Figure 14. The snap shot of load curve for NMOS transistor in CMOS inverter
 
 •	Superimposing the load curve of NMOS on the load curve of PMOS and plotting Vin vs Vout from the graph obtained
 
 ![overlap](https://user-images.githubusercontent.com/89193562/132680555-d5eeedda-33ba-4d71-b885-c8779c9d0b50.JPG)
 
-Figure 14. The snap shot of superimposed load curve of NMOS and load curve of PMOS
+Figure 15. The snap shot of superimposed load curve of NMOS and load curve of PMOS
 
 ![vin vs vout](https://user-images.githubusercontent.com/89193562/132681467-4b755f7f-3e0b-4f90-bad5-c2bcaac6fded.png)
 
-Figure 15. The snap shot of the plot of Vout versus Vin
+Figure 16. The snap shot of the plot of Vout versus Vin
