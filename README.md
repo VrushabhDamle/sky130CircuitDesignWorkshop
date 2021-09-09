@@ -96,3 +96,8 @@ Figure 3. The snap shot of SPICE netlist of the above NMOS
 ![day1 spice model](https://user-images.githubusercontent.com/89193562/132533338-e2298388-5d87-49a2-b5e2-6156ce69c46d.JPG)
 
 Figure 4. The snap shot of the output window of the Day1 activity
+
+
+# **Day 2: Velocity Saturation and basics of CMOS inverter VTC**
+
+## **Part 1: SPICE simulation for lower nodes and velocity saturation effect**
