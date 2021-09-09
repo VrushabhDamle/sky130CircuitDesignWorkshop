@@ -163,10 +163,10 @@ Figure 9. The snap shot of output window for plot between Ids and Vds for short 
 
 •	By observation:
 
-    -	For the NMOS voltage equations
+    - For the NMOS voltage equations
   
     ![NMOS relations](https://user-images.githubusercontent.com/89193562/132678214-102b9070-69f0-4e5b-bf3d-8857a16eb2d3.JPG)
-
+    
     - For the PMOS voltage equations
     
     ![PMOS relations](https://user-images.githubusercontent.com/89193562/132678417-5a8f967b-1829-47a4-a5a4-2c941d53742b.JPG)
