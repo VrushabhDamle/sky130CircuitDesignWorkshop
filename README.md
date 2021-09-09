@@ -5,7 +5,7 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 
 ## **Part 1: Introduction to Circuit Design and SPICE simulations**
 
-**What was learnt:**
+**_What was learnt:_**
 
 •	The importance of W/L ratio
 
@@ -34,7 +34,7 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 
 ## **Part 2: NMOS Resistive region and Saturation region of operation**
 
-**What was learnt:**
+**_What was learnt:_**
 
 •	Theory about Resistive region
 
@@ -61,7 +61,7 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 
 ## **Part 3: Introduction to SPICE**
 
-**What was learnt:**
+**_What was learnt:_**
 
 •	SPICE model parameters
 
@@ -79,7 +79,7 @@ On the first day the of the workshop, a basic introduction to MOSFETs and SPICE 
 
 •	Method to write code for SPICE simulation
 
-**Lab Activity:**
+**_Lab Activity:_**
 
 ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
 
@@ -102,7 +102,7 @@ Figure 4. The snap shot of the output window of the Day1 activity
 
 ## **Part 1: SPICE simulation for lower nodes and velocity saturation effect**
 
-**What was learnt:**
+**_What was learnt:_**
 
 •	The distribution of various regions of operation of NMOS over the graph plotted between Ids and Vds.
 
@@ -129,7 +129,7 @@ Figure 5. The snap shot of various regions of operation of NMOS on graph plotted
 
 •	Velocity Saturation causes device to saturate early
 
-**Lab Activity:**
+**_Lab Activity:_**
 
 ![ngspice command window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675164-206b1eeb-8cba-44a8-af4f-bf4322e37550.JPG)
 
