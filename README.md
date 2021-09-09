@@ -187,4 +187,4 @@ Figure 10. The snap shot of output window for plot between Ids and Vds for short
 
 ![NMOS load curve](https://user-images.githubusercontent.com/89193562/132680062-e4b6e546-8e41-4108-bf3f-39eb6946a5c7.png)
 
-•	Superimposing the load curve of NMOS on the load curve of PMOS and plot Vin vs Vout from the graph obtained
+•	Superimposing the load curve of NMOS on the load curve of PMOS and plotting Vin vs Vout from the graph obtained
