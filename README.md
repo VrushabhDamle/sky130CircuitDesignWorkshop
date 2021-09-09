@@ -1,7 +1,9 @@
 # sky130CircuitDesignWorkshop
-## **Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)** 
+# **Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)**
 
-### **Part 1: Introduction to Circuit Design and SPICE simulations**
+On the first day the of the workshop, a basic introduction to MOSFETs and SPICE simulations was given. Basic terminologies of MOSFETs and the regions of operation were introduced. A few drain current (Id) equations were derived and the first SPICE simulation was successfully performed. The syntax for the simulation files was also explained and the method to create modules was also taught.
+
+## **Part 1: Introduction to Circuit Design and SPICE simulations**
 
 What was learnt:
 
@@ -30,7 +32,7 @@ What was learnt:
 ![fermi potential equation](https://user-images.githubusercontent.com/89193562/132532339-de5b4411-323e-48b2-bb3d-68b20e54dcef.JPG)
 
 
-### **Part 2: NMOS Resistive region and Saturation region of operation**
+## **Part 2: NMOS Resistive region and Saturation region of operation**
 
 What was learnt:
 
@@ -57,7 +59,7 @@ What was learnt:
 •	Dependance of Id on Vds in pinch-off region
 
 
-### **Part 3: Introduction to SPICE**
+## **Part 3: Introduction to SPICE**
 
 What was learnt:
 
