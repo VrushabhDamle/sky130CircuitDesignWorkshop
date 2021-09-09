@@ -119,6 +119,10 @@ Figure 5. The snap shot of various regions of operation of NMOS on graph plotted
 
 ![velocity saturation equation](https://user-images.githubusercontent.com/89193562/132674315-002da47e-65d4-4976-b2c0-b309dee76df7.JPG)
 
+![velocity saturation graph JPG](https://user-images.githubusercontent.com/89193562/132679374-baa32830-fcca-49c3-be54-10b5caf2c5d3.png)
+
+Figure 6. The snap shot of the graph of velocity saturation effect
+
 •	The modes of operation for long channel (>250nm) devices and short channel (<250nm) devices.
 
 •	The equation of Id for long channel and short channel devices
@@ -133,19 +137,19 @@ Figure 5. The snap shot of various regions of operation of NMOS on graph plotted
 
 ![ngspice command window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675164-206b1eeb-8cba-44a8-af4f-bf4322e37550.JPG)
 
-Figure 6. The snap shot of terminal window for plot between Ids and Vds for short channel device
+Figure 7. The snap shot of terminal window for plot between Ids and Vds for short channel device
 
 ![plot window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675399-e8f69dc7-f222-4e91-81fc-4cb2639213d4.JPG)
 
-Figure 7. The snap shot of output window for plot between Ids and Vds for short channel device
+Figure 8. The snap shot of output window for plot between Ids and Vds for short channel device
 
 ![ngspice Id vs Vgs curve command window](https://user-images.githubusercontent.com/89193562/132675473-18cd0d22-a956-4c4a-978b-e4837c292d70.JPG)
 
-Figure 8. The snap shot of terminal window for plot between Ids and Vds for short channel device without the sweep for vdd
+Figure 9. The snap shot of terminal window for plot between Ids and Vds for short channel device without the sweep for vdd
 
 ![plot window Id vs Vgs](https://user-images.githubusercontent.com/89193562/132675655-f779b9be-bcee-4d31-8a62-6204bc0bca40.JPG)
 
-Figure 9. The snap shot of output window for plot between Ids and Vds for short channel device without the sweep for vdd
+Figure 10. The snap shot of output window for plot between Ids and Vds for short channel device without the sweep for vdd
 
 ## **Part 2: CMOS voltage transfer characteristics (VTC)**
 
@@ -174,3 +178,7 @@ Figure 9. The snap shot of output window for plot between Ids and Vds for short 
 - For the relationship between the currents
 
 ![current relations](https://user-images.githubusercontent.com/89193562/132678900-8087d81b-0588-46f8-8fc9-11e51725ebdd.JPG)
+
+•	Load curve for PMOS transistor in CMOS inverter
+
+•	Load curve for NMOS transistor in CMOS inverter
