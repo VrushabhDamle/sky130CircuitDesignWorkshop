@@ -164,7 +164,3 @@ Figure 9. The snap shot of output window for plot between Ids and Vds for short 
 •	By observation:
 
     - For the NMOS voltage equations
-    
-    - For the PMOS voltage equations
-
-    - For the relationship between the currents
