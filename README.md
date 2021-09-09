@@ -290,15 +290,15 @@ Figure 12. The snap shot of output window for plot between Ids and Vds for short
 Figure 13. The snap shot of the circuit diagram of CMOS inverter
 
 -	By observation:
-    - For the NMOS voltage equations
+- For the NMOS voltage equations
 
 ![NMOS relations](https://user-images.githubusercontent.com/89193562/132678807-2bcbfa75-4081-46cb-899d-7b3915c62688.JPG)
     
-    - For the PMOS voltage equations
+- For the PMOS voltage equations
 
 ![PMOS relations](https://user-images.githubusercontent.com/89193562/132678852-68fd02e7-f396-45f5-8ea3-3b2645c71372.JPG)
 
-    - For the relationship between the currents
+- For the relationship between the currents
 
 ![current relations](https://user-images.githubusercontent.com/89193562/132678900-8087d81b-0588-46f8-8fc9-11e51725ebdd.JPG)
 
