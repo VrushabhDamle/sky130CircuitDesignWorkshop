@@ -100,6 +100,10 @@ Figure 4. The snap shot of the output window of the Day1 activity
 
 # **Day 2: Velocity Saturation and basics of CMOS inverter VTC**
 
+On the second day of the workshop SPICE simulation for lower nodes and the characteristics for long channel and short channel devices were observed. Also, the velocity saturation at lower and higher electric fields and velocity saturation drain current model were observed.
+
+Finally MOSFET as a switch and the characteristics of CMOS inverter were taught.
+
 ## **Part 1: SPICE simulation for lower nodes and velocity saturation effect**
 
 #### **_What was learnt:_**
