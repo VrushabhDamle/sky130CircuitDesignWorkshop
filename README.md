@@ -138,7 +138,7 @@ Figure 3. The snap shot of the NMOS showing the pinch-off region
 
 ![Id pinch off](https://user-images.githubusercontent.com/89193562/132710166-0b0c76d9-aeab-4a32-b56a-3ec5678c0fa6.JPG)
 
-  - here, λ is the channel length modulation
+- Here, λ is the channel length modulation
 
 ## **Part 3: Introduction to SPICE**
 
