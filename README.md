@@ -263,47 +263,59 @@ Figure 12. The snap shot of output window for plot between Ids and Vds for short
 
 ### **_What was learnt:_**
 
-•	Transistor as a switch
+-	Transistor as a switch
+    - With infinite 'Off' resistance when |Vgs|<|Vt|
+    - With finite 'On' resistance when |Vgs|>|Vt|
 
-•	The working of CMOS
+-	The working of CMOS inverter
 
-•	What happens when Vin is ‘high’ and equal to ‘vdd’ and what happens when Vin is ‘low’ and equal to ‘0V’
+-	What happens when Vin is ‘high’ and equal to ‘vdd’
+    - PMOS turns 'OFF'
+    - NMOS turns 'ON'
+   
+-  What happens when Vin is ‘low’ and equal to ‘0V’
+    - PMOS turns 'ON'
+    - NMOS turns 'OFF'
 
-•	The flow of current when Vin is ‘high’ and when Vin is ‘low’
+-	The flow of current when Vin is ‘high’ and when Vin is ‘low’
+- When Vin=Vdd
+    - Direct path exists between Vout and Vss resulting in Vout=0V
+- When Vin=0V
+    - Direct path exists between Vdd and Vout, resulting in Vout=Vdd
 
-•	Defined terminologies in CMOS inverter
+-	Defined terminologies in CMOS inverter
 
 ![1631186540042](https://user-images.githubusercontent.com/89193562/132681895-fe353e35-c49a-4fcf-a822-640a20898861.jpg)
 
 Figure 13. The snap shot of the circuit diagram of CMOS inverter
 
-•	By observation:
+-	By observation:
 
-- For the NMOS voltage equations
+    - For the NMOS voltage equations
 
 ![NMOS relations](https://user-images.githubusercontent.com/89193562/132678807-2bcbfa75-4081-46cb-899d-7b3915c62688.JPG)
 
-- For the PMOS voltage equations
+    - For the PMOS voltage equations
 
 ![PMOS relations](https://user-images.githubusercontent.com/89193562/132678852-68fd02e7-f396-45f5-8ea3-3b2645c71372.JPG)
 
-- For the relationship between the currents
+    - For the relationship between the currents
 
 ![current relations](https://user-images.githubusercontent.com/89193562/132678900-8087d81b-0588-46f8-8fc9-11e51725ebdd.JPG)
 
-•	Load curve for PMOS transistor in CMOS inverter
+-	Load curve for PMOS transistor in CMOS inverter
 
 ![PMOS load curve](https://user-images.githubusercontent.com/89193562/132680045-00315560-5c42-4a80-a93a-6b28f645eca7.png)
 
 Figure 14. The snap shot of load curve for PMOS transistor in CMOS inverter
 
-•	Load curve for NMOS transistor in CMOS inverter
+-	Load curve for NMOS transistor in CMOS inverter
 
 ![NMOS load curve](https://user-images.githubusercontent.com/89193562/132680062-e4b6e546-8e41-4108-bf3f-39eb6946a5c7.png)
 
 Figure 15. The snap shot of load curve for NMOS transistor in CMOS inverter
 
-•	Superimposing the load curve of NMOS on the load curve of PMOS and plotting Vin vs Vout from the graph obtained
+-	Superimposing the load curve of NMOS on the load curve of PMOS and plotting Vin vs Vout from the graph obtained
 
 ![overlap](https://user-images.githubusercontent.com/89193562/132680555-d5eeedda-33ba-4d71-b885-c8779c9d0b50.JPG)
 
@@ -312,3 +324,5 @@ Figure 16. The snap shot of superimposed load curve of NMOS and load curve of PM
 ![vin vs vout](https://user-images.githubusercontent.com/89193562/132681467-4b755f7f-3e0b-4f90-bad5-c2bcaac6fded.png)
 
 Figure 17. The snap shot of the plot of Vout versus Vin
+
+- Graphically, the Vin points from the intersection of corresponding load lines are picked-up.
