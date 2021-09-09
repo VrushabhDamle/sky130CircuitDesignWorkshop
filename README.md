@@ -144,6 +144,8 @@ Figure 3. The snap shot of the NMOS showing the pinch-off region
 
 ### **_What was learnt:_**
 
+- The spice waveforms can be used to calculate the delay of a cell. These delays are very close to the practical delays observed.
+
 •	SPICE model parameters
 
 •	SPICE simulation flow diagram
@@ -151,6 +153,12 @@ Figure 3. The snap shot of the NMOS showing the pinch-off region
 ![spice workflow](https://user-images.githubusercontent.com/89193562/132533155-7affa537-beb3-4aa4-8eab-b4ff3aaab64d.JPG)
 
 •	SPICE netlist for our NMOS
+
+![1631113614117](https://user-images.githubusercontent.com/89193562/132711027-1aa941dc-56bc-4be9-af32-5a96b76d9c09.jpg)
+
+Figure 4. The snap shot of SPICE netlist of the above NMOS
+
+- R1 resistance is added as it is not desired that the current from Vin would be directly fed to the gate of M1.
 
 •	Definition of nodes and the method to identify them
 
@@ -164,11 +172,7 @@ Figure 3. The snap shot of the NMOS showing the pinch-off region
 
 ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
 
-Figure 4. The snap shot of the terminal window for Day1 activity
-
-![1631113614117](https://user-images.githubusercontent.com/89193562/132535503-e272eee6-35b4-4763-832c-367f36209678.jpg)
-
-Figure 5. The snap shot of SPICE netlist of the above NMOS
+Figure 5. The snap shot of the terminal window for Day1 activity
 
 ![day1 spice model](https://user-images.githubusercontent.com/89193562/132533338-e2298388-5d87-49a2-b5e2-6156ce69c46d.JPG)
 
