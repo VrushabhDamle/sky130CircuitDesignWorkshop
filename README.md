@@ -101,3 +101,48 @@ Figure 4. The snap shot of the output window of the Day1 activity
 # **Day 2: Velocity Saturation and basics of CMOS inverter VTC**
 
 ## **Part 1: SPICE simulation for lower nodes and velocity saturation effect**
+
+What was learnt:
+
+•	The distribution of various regions of operation of NMOS over the graph plotted between Ids and Vds.
+
+![plot (0)](https://user-images.githubusercontent.com/89193562/132674785-f6e3444f-2e00-45d9-ac47-7f4c8e040074.png)
+
+Figure 5. The snap shot of various regions of operation of NMOS on graph plotted between Ids and Vds.
+
+
+•	The theory about cut-off region of NMOS.
+
+•	Short channel effect
+
+•	Velocity Saturation effect
+
+![velocity saturation equation](https://user-images.githubusercontent.com/89193562/132674315-002da47e-65d4-4976-b2c0-b309dee76df7.JPG)
+
+•	The modes of operation for long channel (>250nm) devices and short channel (<250nm) devices.
+
+•	The equation of Id for long channel and short channel devices
+
+![Id equation](https://user-images.githubusercontent.com/89193562/132674348-c1e9e289-f766-4750-94f1-eb4cfe5189eb.JPG)
+
+•	The various modes when the value of Vmin is different
+
+•	Velocity Saturation causes device to saturate early
+
+Lab Activity:
+
+![ngspice command window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675164-206b1eeb-8cba-44a8-af4f-bf4322e37550.JPG)
+
+Figure 6. The snap shot of terminal window for plot between Ids and Vds for short channel device
+
+![plot window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675399-e8f69dc7-f222-4e91-81fc-4cb2639213d4.JPG)
+
+Figure 7. The snap shot of output window for plot between Ids and Vds for short channel device
+
+![ngspice Id vs Vgs curve command window](https://user-images.githubusercontent.com/89193562/132675473-18cd0d22-a956-4c4a-978b-e4837c292d70.JPG)
+
+Figure 8. The snap shot of terminal window for plot between Ids and Vds for short channel device without the sweep for vdd
+
+![plot window Id vs Vgs](https://user-images.githubusercontent.com/89193562/132675655-f779b9be-bcee-4d31-8a62-6204bc0bca40.JPG)
+
+Figure 9. The snap shot of output window for plot between Ids and Vds for short channel device without the sweep for vdd
