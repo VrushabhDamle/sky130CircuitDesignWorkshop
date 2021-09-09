@@ -146,13 +146,13 @@ Figure 3. The snap shot of the NMOS showing the pinch-off region
 
 - The spice waveforms can be used to calculate the delay of a cell. These delays are very close to the practical delays observed.
 
-•	SPICE model parameters
+-	SPICE model parameters
 
-•	SPICE simulation flow diagram
+-	SPICE simulation flow diagram
 
 ![spice workflow](https://user-images.githubusercontent.com/89193562/132533155-7affa537-beb3-4aa4-8eab-b4ff3aaab64d.JPG)
 
-•	SPICE netlist for our NMOS
+-	SPICE netlist for our NMOS
 
 ![1631113614117](https://user-images.githubusercontent.com/89193562/132711027-1aa941dc-56bc-4be9-af32-5a96b76d9c09.jpg)
 
@@ -160,13 +160,13 @@ Figure 4. The snap shot of SPICE netlist of the above NMOS
 
 - R1 resistance is added as it is not desired that the current from Vin would be directly fed to the gate of M1.
 
-•	Definition of nodes and the method to identify them
+-	Definition of nodes and the method to identify them
 
-•	SPICE syntax
+-	SPICE syntax
 
-•	Method to save SPICE model
+-	Method to save SPICE model
 
-•	Method to write code for SPICE simulation
+-	Method to write code for SPICE simulation
 
 ### **_Lab Activity:_**
 
@@ -195,12 +195,18 @@ Finally MOSFET as a switch and the characteristics of CMOS inverter were taught.
 
 Figure 7. The snap shot of various regions of operation of NMOS on graph plotted between Ids and Vds.
 
+- The plot overlapping with the 'x' axis is at Vgs=0V and that is because there is 0 drain current at that point of time and the reason is that when Vgs=0V the nmos is not turned 'ON' so, there is no channel present.
 
-•	The theory about cut-off region of NMOS.
+-	The theory about cut-off region of NMOS.
+    - When Vgs<Vt the region of operation of the NMOS is said to be the cut-off region
+    - Cut-off region is a region where the device has been cut-off or it is 'OFF'
 
 •	Short channel effect
 
-•	Velocity Saturation effect
+-	Velocity Saturation effect
+    - For the lower values of electric field, the velocity tends to be a linear function of the electric field. But, after a certain point (cut-off) the velocity just saturates. This point of saturation is represented by εc (critical electric field)
+    - Vn(m/S) = linear for ε<=εc
+    - Vn(m/S) = constant for ε>=εc
 
 ![velocity saturation equation](https://user-images.githubusercontent.com/89193562/132674315-002da47e-65d4-4976-b2c0-b309dee76df7.JPG)
 
