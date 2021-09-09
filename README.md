@@ -201,7 +201,7 @@ Figure 7. The snap shot of various regions of operation of NMOS on graph plotted
     - When Vgs<Vt the region of operation of the NMOS is said to be the cut-off region
     - Cut-off region is a region where the device has been cut-off or it is 'OFF'
 
-•	Short channel effect
+-	Short channel effect
 
 -	Velocity Saturation effect
     - For the lower values of electric field, the velocity tends to be a linear function of the electric field. But, after a certain point (cut-off) the velocity just saturates. This point of saturation is represented by εc (critical electric field)
@@ -214,15 +214,32 @@ Figure 7. The snap shot of various regions of operation of NMOS on graph plotted
 
 Figure 8. The snap shot of the graph of velocity saturation effect
 
-•	The modes of operation for long channel (>250nm) devices and short channel (<250nm) devices.
+-	The modes of operation for long channel (>250nm) devices and short channel (<250nm) devices.
+-	The modes of operation for long channel devices are:
+    - Cut-off region
+    - Resistive region
+    - Saturation region
+- The modes of operation for short channel devices are:
+    - Cut-off region
+    - Resistive region
+    - Velocity Saturation region
+    - Saturation region
+ 
+- Let's call (Vgs-Vt)=Vgt
 
-•	The equation of Id for long channel and short channel devices
+-	The equation of Id for long channel and short channel devices
 
 ![Id equation](https://user-images.githubusercontent.com/89193562/132674348-c1e9e289-f766-4750-94f1-eb4cfe5189eb.JPG)
 
-•	The various modes when the value of Vmin is different
+- Vdsat is a technology parameter saturation voltage i.e voltage at which device velocity saturates and is independent of Vgs or Vds
 
-•	Velocity Saturation causes device to saturate early
+-	The various modes when the value of Vmin is different
+    - When Vgt is the minimum of Vgt, Vds, Vdsat the device is in saturation region.
+    - When Vds is the minimum of Vgt, Vds, Vdsat the device is in resistive region.
+    - When Vdsat is the minimum of Vgt, Vds, Vdsat the device is in velocity saturation region.
+    - It looks like current should increase at lower nodes.
+
+-	Velocity Saturation causes device to saturate early
 
 ### **_Lab Activity:_**
 
