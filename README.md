@@ -20,8 +20,8 @@
     - [Part 1: Voltage transfer characteristics and SPICE simulations](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-1-voltage-transfer-characteristics-and-spice-simulations)
         - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-5)
         - [Lab Activity](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#lab-activity-2)
-    - [Part 2: Static Behavior Evaluation - CMOS Inverter Robustness and Switching threshold]()
-        - [What was learnt]()
+    - [Part 2: Static Behavior Evaluation - CMOS Inverter Robustness and Switching threshold](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-2-static-behavior-evaluation---cmos-inverter-robustness-and-switching-threshold)
+        - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-6)
 # **Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)**
 
 On the first day the of the workshop, a basic introduction to MOSFETs and SPICE simulations was given. Basic terminologies of MOSFETs and the regions of operation were introduced. A few drain current (Id) equations were derived and the first SPICE simulation was successfully performed. The syntax for the simulation files was also explained and the method to create modules was also taught.
