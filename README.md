@@ -1,5 +1,7 @@
 # sky130CircuitDesignWorkshop
 # **_INDEX:_**
+- [sky130CircuitDesignWorkshop](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#sky130circuitdesignworkshop)
+- [INDEX]()
 - [Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#day-1-basics-of-nmos-drain-current-id-vs-drain-to-source-voltage-vds)
   - [Part 1: Introduction to Circuit Design and SPICE simulations](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-1-introduction-to-circuit-design-and-spice-simulations)
       - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt)
