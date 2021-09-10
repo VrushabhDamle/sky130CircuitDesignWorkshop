@@ -631,6 +631,19 @@ Therefore,
 
 ![wp lp wn ln equation](https://user-images.githubusercontent.com/89193562/132872201-eba019d8-5a72-480a-a44d-f4d66f718da1.JPG)
 
+- Here,
+    - Wp is the width of the channel in PMOS
+    - Lp is the length of the channel in PMOS
+    - Wn is the width of the channel in NMOS
+    - Ln is the length of the channel in NMOS
+    - kn' is the process transconductance of the NMOS
+    - kp' is the process transconductance of the PMOS
+    - Vdsatn is the Vdsat of the NMOS
+    - Vdsatp is the Vdsat of the PMOS
+    - Vm is the switching threshold voltage
+    - Vt is the threshold voltage
+    - Vdd is the supply voltage
+
 - In clock inverter sizes of PMOS and NMOS should be exactly the same
 - When Wp/Lp is increased, the rise delay is isgnificantly reduced because time required for the output capacitor to charge decreases significantly and the reason is the availability of a bigger area to charge the capacitor.
 - When Wp/Lp is 2.(Wn/Ln) there is approximately equal rise-fall delay
