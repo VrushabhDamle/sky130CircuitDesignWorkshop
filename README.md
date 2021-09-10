@@ -8,10 +8,10 @@
   - [Part 3: Introduction to SPICE](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-3-introduction-to-spice)
       - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-2)
       - [Lab Activity](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#lab-activity)
-- [Day 2: Velocity Saturation and basics of CMOS inverter VTC]()
-    - [Part 1: SPICE simulation for lower nodes and velocity saturation effect]()
-        - [What was learnt]()
-        - [Lab Activity]()
+- [Day 2: Velocity Saturation and basics of CMOS inverter VTC](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#day-2-velocity-saturation-and-basics-of-cmos-inverter-vtc)
+    - [Part 1: SPICE simulation for lower nodes and velocity saturation effect](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-1-spice-simulation-for-lower-nodes-and-velocity-saturation-effect)
+        - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-3)
+        - [Lab Activity](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#lab-activity-1)
 # **Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)**
 
 On the first day the of the workshop, a basic introduction to MOSFETs and SPICE simulations was given. Basic terminologies of MOSFETs and the regions of operation were introduced. A few drain current (Id) equations were derived and the first SPICE simulation was successfully performed. The syntax for the simulation files was also explained and the method to create modules was also taught.
