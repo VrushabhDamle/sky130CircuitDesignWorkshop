@@ -202,6 +202,14 @@ setplot dc1
 .end
 ```
 
+- There are five types of process corners available for use:
+    - tt -> Typical corner
+    - sf -> Slow-fast corner
+    - ff -> Fast-fast corner
+    - ss -> Slow-slow corner
+    - fs -> Fast-slow corner
+- In the Lab activity, tt corner is used. The corner can be changed by changing the word 'tt' in the line `.lib "sky130_fd_pr/models/sky130.lib.spice" tt` with any valid process corner
+
 ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
 
 Figure 5. The snap shot of the terminal window for Day1 activity
@@ -274,6 +282,37 @@ Figure 8. The snap shot of the graph of velocity saturation effect
 -	Velocity Saturation causes device to saturate early
 
 ### **_Lab Activity:_**
+
+For plotting the graph between Ids and Vds for short channel devices we need to write the following SPICE code:
+```
+*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=0.39 l=0.15
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+```
 
 ![ngspice command window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675164-206b1eeb-8cba-44a8-af4f-bf4322e37550.JPG)
 
@@ -352,7 +391,7 @@ Figure 15. The snap shot of load curve for NMOS transistor in CMOS inverter
 
 Figure 16. The snap shot of superimposed load curve of NMOS and load curve of PMOS
 
-![vin vs vout](https://user-images.githubusercontent.com/89193562/132681467-4b755f7f-3e0b-4f90-bad5-c2bcaac6fded.png)
+![1631278404895](https://user-images.githubusercontent.com/89193562/132859275-865ad5a6-d174-4bb0-9615-77cc5deb9992.jpg)
 
 Figure 17. The snap shot of the plot of Vout versus Vin
 
