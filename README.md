@@ -20,8 +20,16 @@
     - [Part 1: Voltage transfer characteristics and SPICE simulations](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-1-voltage-transfer-characteristics-and-spice-simulations)
         - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-5)
         - [Lab Activity](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#lab-activity-2)
-    - [Part 2: Static Behavior Evaluation - CMOS Inverter Robustness and Switching threshold](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-2-static-behavior-evaluation---cmos-inverter-robustness-and-switching-threshold)
+    - [Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Switching threshold](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-2-static-behavior-evaluation---cmos-inverter-robustness-and-switching-threshold)
         - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-6)
+- [Day 4: CMOS Noise Margin Robustness Evaluation]()
+    - [Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Noise Margin]()
+        - [What was learnt]()
+- [Day 5: CMOS Power supply and device variation robustness evaluation]()
+    - [Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Power Supply Variation]()
+        - [What was learnt]()
+    - [Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Device Variation]()
+        - [What was learnt]()
 - [References](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#references)
 # **Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)**
 
@@ -572,7 +580,7 @@ Figure 21. The snap shot of the terminal window for performing the transient ana
 
 Figure 22. The snap shot of the output window for performing the transient analysis
 
-## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness and Switching threshold**
+## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Switching threshold**
 
 ### **_What was learnt:_**
 
@@ -622,5 +630,21 @@ Therefore,
 - When Wp/Lp is increased, the rise delay is isgnificantly reduced because time required for the output capacitor to charge decreases significantly and the reason is the availability of a bigger area to charge the capacitor.
 - When Wp/Lp is 2.(Wn/Ln) there is approximately equal rise-fall delay
 - Ron(PMOS) ~ 2.5\*Ron(NMOS)
+
+# **Day 4: CMOS Noise Margin Robustness Evaluation**
+
+## **Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Noise Margin**
+
+### **_What was learnt:_**
+
+# **Day 5: CMOS Power supply and device variation robustness evaluation**
+
+## **Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Power Supply Variation**
+
+### **_What was learnt:_**
+
+## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Device Variation**
+
+### **_What was learnt:_**
 
 # References
