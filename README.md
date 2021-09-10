@@ -554,8 +554,10 @@ Figure 22. The snap shot of the output window for performing the transient analy
 
 - CMOS inverter is a robust device because the shape of it's input versus output curve remains the same for all different values of (W/L) ratios.
 - Static Behavior Evaluation: CMOS Inverter Robustness
-    - Switching threshold
+    - Switching Threshold
     - Noise Margin
+    - Power Supply Variation
+    - Device Variation
 
 - Switching Threshold (Vm)
     - It is the point where Vin = Vout
