@@ -467,6 +467,8 @@ Figure 17. The snap shot of the plot of Vout versus Vin
 
 # **Day 3: CMOS switching threshold and dynamic simulations**
 
+On the third day of the workshop the emphasis was on Voltage Transfer Characteristics using SPICE simulations and later on CMOS Inverter Robustness. Many factors were told but only the switching threshold was discussed in depth. An equation relating switching threshold voltage (Vm) and (W/L) ratios of the PMOS and the NMOS was also derived and alternatively, an equation for (W/L) ratios of the PMOS and the NMOS if the Vm is preset was also derived.
+
 ## **Part 1: Voltage transfer characteristics and SPICE simulations**
 
 ### **_What was learnt:_**
