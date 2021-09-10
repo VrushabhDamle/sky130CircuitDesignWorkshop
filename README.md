@@ -322,6 +322,37 @@ Figure 9. The snap shot of terminal window for plot between Ids and Vds for shor
 
 Figure 10. The snap shot of output window for plot between Ids and Vds for short channel device
 
+To calculate Threshold voltage for Id versus Vgs curve, the following SPICE code is required:
+```
+*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=0.39 l=0.15
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vin 0 1.8 0.1
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+
+```
+
 ![ngspice Id vs Vgs curve command window](https://user-images.githubusercontent.com/89193562/132675473-18cd0d22-a956-4c4a-978b-e4837c292d70.JPG)
 
 Figure 11. The snap shot of terminal window for plot between Ids and Vds for short channel device without the sweep for vdd
