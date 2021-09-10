@@ -446,13 +446,13 @@ Figure 13. The snap shot of the circuit diagram of CMOS inverter
 
 -	Load curve for PMOS transistor in CMOS inverter
 
-![PMOS load curve](https://user-images.githubusercontent.com/89193562/132680045-00315560-5c42-4a80-a93a-6b28f645eca7.png)
+![1631302325727](https://user-images.githubusercontent.com/89193562/132907643-9423cede-796e-40b7-a8bb-36fde16d533f.jpg)
 
 Figure 14. The snap shot of load curve for PMOS transistor in CMOS inverter
 
 -	Load curve for NMOS transistor in CMOS inverter
 
-![NMOS load curve](https://user-images.githubusercontent.com/89193562/132680062-e4b6e546-8e41-4108-bf3f-39eb6946a5c7.png)
+![1631302325723](https://user-images.githubusercontent.com/89193562/132907688-664d7f0e-da4e-4c36-9270-fca25f24b945.jpg)
 
 Figure 15. The snap shot of load curve for NMOS transistor in CMOS inverter
 
