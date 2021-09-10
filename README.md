@@ -161,6 +161,8 @@ Figure 4. The snap shot of SPICE netlist of the above NMOS
 - R1 resistance is added as it is not desired that the current from Vin would be directly fed to the gate of M1.
 
 -	Definition of nodes and the method to identify them
+    - A node is can be defined as a point connecting two termials. If two terminals of a single device are short circuited then the node is said to be in between these two terminals. But most of the times a node connects two different devices.
+    - The method to identify nodes is to identify the SPICE netlist for the device and all the wires connecting different components have one node on them.
 
 -	SPICE syntax
 
@@ -169,6 +171,36 @@ Figure 4. The snap shot of SPICE netlist of the above NMOS
 -	Method to write code for SPICE simulation
 
 ### **_Lab Activity:_**
+
+For performing the Day 1 Lab activity we write the following code:
+```
+*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=5 l=2
+R1 n1 in 55
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+```
 
 ![day1 ngspice command](https://user-images.githubusercontent.com/89193562/132533223-85fac5e7-3073-43fc-9d14-a248e9116a2e.JPG)
 
