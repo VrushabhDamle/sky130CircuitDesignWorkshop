@@ -231,7 +231,7 @@ Finally MOSFET as a switch and the characteristics of CMOS inverter were taught.
 
 •	The distribution of various regions of operation of NMOS over the graph plotted between Ids and Vds.
 
-![plot (0)](https://user-images.githubusercontent.com/89193562/132674785-f6e3444f-2e00-45d9-ac47-7f4c8e040074.png)
+![regions of operation](https://user-images.githubusercontent.com/89193562/132864852-2f667ae5-a71c-4e67-975a-e4c137843114.png)
 
 Figure 7. The snap shot of various regions of operation of NMOS on graph plotted between Ids and Vds.
 
@@ -360,6 +360,8 @@ Figure 11. The snap shot of terminal window for plot between Ids and Vds for sho
 ![plot window Id vs Vgs](https://user-images.githubusercontent.com/89193562/132675655-f779b9be-bcee-4d31-8a62-6204bc0bca40.JPG)
 
 Figure 12. The snap shot of output window for plot between Ids and Vds for short channel device without the sweep for vdd
+
+- In order to calculate the Threshold voltage, the linear part of the plot must be extended. Now, the x intercept of this extended plot gives the value of the threshold voltage of the device that is being simulated.
 
 ## **Part 2: CMOS voltage transfer characteristics (VTC)**
 
