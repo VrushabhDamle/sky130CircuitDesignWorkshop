@@ -578,6 +578,21 @@ Therefore, the equations can be re-written as:
 
 ![Idsn_plus_Idsp_is_zero](https://user-images.githubusercontent.com/89193562/132868215-8eb427a0-1a5a-4c3f-8cd5-76c41d49d947.JPG)
 
+Let's consider this as equation 1
+
 Solving the above equation for Vm,
 
 ![vm equation](https://user-images.githubusercontent.com/89193562/132869184-bd60ea34-e16f-4c7b-9be7-05386549329a.JPG)
+
+- Alternatively, the required ratio of PMOS versus NMOS transistor size can be derived such that Vm is set.
+
+Equation 1 must be taken in the form IdsN = - IdsP
+
+Therefore,
+
+![wp lp wn ln equation](https://user-images.githubusercontent.com/89193562/132872201-eba019d8-5a72-480a-a44d-f4d66f718da1.JPG)
+
+- In clock inverter sizes of PMOS and NMOS should be exactly the same
+- When Wp/Lp is increased, the rise delay is isgnificantly reduced because time required for the output capacitor to charge decreases significantly and the reason is the availability of a bigger area to charge the capacitor.
+- When Wp/Lp is 2.(Wn/Ln) there is approximately equal rise-fall delay
+- Ron(PMOS) ~ 2.5\*Ron(NMOS)
