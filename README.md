@@ -549,3 +549,35 @@ Figure 21. The snap shot of the terminal window for performing the transient ana
 Figure 22. The snap shot of the output window for performing the transient analysis
 
 ## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness and Switching threshold**
+
+### **_What was learnt:_**
+
+- CMOS inverter is a robust device because the shape of it's input versus output curve remains the same for all different values of (W/L) ratios.
+- Static Behavior Evaluation: CMOS Inverter Robustness
+    - Switching threshold
+    - Noise Margin
+
+- Switching Threshold (Vm)
+    - It is the point where Vin = Vout
+    - Graphical method to find Vm is to draw a line across the graph of output voltage to input voltage of a CMOS inverter starting at the origin and ending at the opposite diagonal of the plot. Now, the x-coordinate of the point of intersection of this line and the curve is the switching threshold.
+    - Vm when (Wp/Lp) is 1.5 is approximately equal to 0.98V and when (Wp/Lp) is 3.75 it is approximately equal to 1.2V
+    - Wp and Lp in the above section are Width of PMOS channel and Length of PMOS channel
+    - At Vm, both PMOS and NMOS are turned 'ON' because Vgs almost crossed the threshold region for both of them.
+    - A few observations can be made from the information stated above,
+    - Therefore, Vgs = Vds
+    - IdsP = - IdsN which means that IdsP + IdsN = 0
+    - We know the equations for IdsN and IdsP which are as stated below:
+    
+      ![Idsn and Idsp equations](https://user-images.githubusercontent.com/89193562/132867914-dc5b1ac9-a4d9-452b-9352-4872c94264fe.JPG)
+
+We ignore the 1+λVds because the term is very small and it makes the equations very difficult for hand calculations.
+
+Since, IdsP + IdsN = 0
+
+Therefore, the equations can be re-written as:
+
+![Idsn_plus_Idsp_is_zero](https://user-images.githubusercontent.com/89193562/132868215-8eb427a0-1a5a-4c3f-8cd5-76c41d49d947.JPG)
+
+Solving the above equation for Vm,
+
+![vm equation](https://user-images.githubusercontent.com/89193562/132869184-bd60ea34-e16f-4c7b-9be7-05386549329a.JPG)
