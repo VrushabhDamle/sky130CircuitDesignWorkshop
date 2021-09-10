@@ -427,3 +427,123 @@ Figure 16. The snap shot of superimposed load curve of NMOS and load curve of PM
 Figure 17. The snap shot of the plot of Vout versus Vin
 
 - Graphically, the Vin points from the intersection of corresponding load lines are picked-up.
+
+# **Day 3: CMOS switching threshold and dynamic simulations**
+
+## **Part 1: Voltage transfer characteristics and SPICE simulations**
+
+### **_What was learnt:_**
+- The various components of a SPICE deck:
+    - Component connectivity
+    - Component values
+    - Identification of 'nodes'
+    - Naming 'nodes'
+
+- Let us consider the following SPICE netlist
+
+![1631280484301](https://user-images.githubusercontent.com/89193562/132860957-9e9492b5-c646-4866-add5-279064e73c82.jpg)
+
+Figure 18. The snap shot of the SPICE netlist considered
+
+- The SPICE code for the above netlist looks something like following:
+```
+***MODEL Description***
+***NETLIST Description***
+M1 out in vdd vdd pmos W=0.375u L=0.25u
+M2 out in  0   0  nmos W=0.375u L=0.25u
+
+cload out 0 10f
+
+Vdd vdd 0 2.5
+Vin  in 0 2.5
+
+***SIMULATION Commands***
+.op
+.dc Vin 0 2.5 0.05
+
+***.include tsmc_025um_model.mod***
+.LIB "tsmc_025um_model.mod" CMOS_MODELS
+.end
+```
+
+### **_Lab Activity:_**
+
+For plotting the Vtc characteristics of CMOS inverter, the following code is needed:
+```
+*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+
+.dc Vin 0 1.8 0.01
+
+.control
+run
+setplot dc1
+display
+.endc
+
+.end
+```
+
+![terminal window out vs in](https://user-images.githubusercontent.com/89193562/132863150-3d5b53a2-a802-43cd-aaca-1d28bca51945.JPG)
+
+Figure 19. The snap shot of the terminal window for plotting the Vtc characteristics of CMOS inverter
+
+![output window out vs in](https://user-images.githubusercontent.com/89193562/132863366-e80c7b36-42af-45bb-a140-c75502008046.JPG)
+
+Figure 20. The snap shot of the output window for plotting the Vtc characteristics of CMOS inverter
+
+For performing the transient analysis, the following code is required:
+```
+*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
+
+*simulation commands
+
+.tran 1n 10n
+
+.control
+run
+.endc
+
+.end
+```
+
+![terminal window transient](https://user-images.githubusercontent.com/89193562/132863836-2348a72e-a7e9-4ee3-9d3c-bb5c63d64183.JPG)
+
+Figure 21. The snap shot of the terminal window for performing the transient analysis
+
+![output window transient](https://user-images.githubusercontent.com/89193562/132863939-9f777f44-e10e-4bc3-a9a2-41e833dd465b.JPG)
+
+Figure 22. The snap shot of the output window for performing the transient analysis
+
+## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness and Switching threshold**
