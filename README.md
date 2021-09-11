@@ -648,6 +648,17 @@ Therefore,
     - Vdd is the supply voltage
 
 - In clock inverter sizes of PMOS and NMOS should be exactly the same
+
+- We experimented with the sizes of the PMOS and came up with the following conclusions
+
+|(Wp/Lp)|x.(Wn/Ln)|Rise Delay|Fall Delay|Vm   |
+|---    |---      |---       |---       |---  |
+|(Wp/Lp)|1.(Wn/Ln)|148pS     |71pS      |0.99V|
+|(Wp/Lp)|2.(Wn/Ln)|80pS      |76pS      |1.2V |
+|(Wp/Lp)|3.(Wn/Ln)|57pS      |80pS      |1.25V|
+|(Wp/Lp)|4.(Wn/Ln)|45pS      |84pS      |1.35V|
+|(Wp/Lp)|5.(Wn/Ln)|37pS      |88pS      |1.4V |
+
 - When Wp/Lp is increased, the rise delay is isgnificantly reduced because time required for the output capacitor to charge decreases significantly and the reason is the availability of a bigger area to charge the capacitor.
 - When Wp/Lp is 2.(Wn/Ln) there is approximately equal rise-fall delay
 - Ron(PMOS) ~ 2.5\*Ron(NMOS)
