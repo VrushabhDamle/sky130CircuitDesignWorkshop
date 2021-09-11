@@ -672,7 +672,38 @@ Therefore,
 
 ### **_What was learnt:_**
 
-- 
+- The ideal and actual Input-Output characteristics of an inverter were observed
+
+![1631346101863](https://user-images.githubusercontent.com/89193562/132940629-2c46f46d-d9a6-4c3b-9615-45f88bac7944.jpg)
+![1631345938506](https://user-images.githubusercontent.com/89193562/132940634-1688436a-cf57-41d7-82d8-70e0512a1154.jpg)
+
+- In the above diagram, the terms stated are explained as follows:
+    - Vil is Input Low Voltage (Vil could be Vdd/4)
+        - Any input voltage level between 0 and Vil will be treated as logic '0'
+    - Voh is Output High Voltage (Vih < Voh <= Vdd)
+        - Any output voltage level between Voh and Vdd will be treated as logic '1'
+    - Vih is Input High Voltage (Vih could be 3.Vdd/4)
+        - Any input voltage level between Vih and Vdd will be treated as logic '1'
+    - Vol is Output Low Voltage (0 <= Vol < Vil)
+        - Any output voltage level between 0 and Vol will be treated as logic '0'
+- Actual Input-Output characteristics on an inverter were observed and they were plotted on a scale
+
+![1631346891597](https://user-images.githubusercontent.com/89193562/132940893-994a25d6-d89f-401f-b98f-868a4f438ef1.jpg)
+![1631346891586](https://user-images.githubusercontent.com/89193562/132940899-e462e34a-643c-4864-9024-73bc997474c1.jpg)
+
+- In the above diagram, the terms stated are explained as follows:
+    - NMh is the Noise Margin High
+        - Any voltage level in "NMh" range will be detected as logic '1'
+    - NMl is the Noise Margin Low
+        - Any voltage level in "NMl" range will be detected as logic '0'
+    - Undefined region
+        - Any signal in "Undefined region" will be an indefinite logic level
+- Noise Margins are the tolerance levels of the noise
+- The equations for NMh and NMl are as follows:
+
+![nmh and nml equations](https://user-images.githubusercontent.com/89193562/132941048-4d1a35eb-24bc-44dd-ba25-5a5abecd73bb.JPG)
+
+
 ### **_Lab Activity:_**
 
 # **Day 5: CMOS Power supply and device variation robustness evaluation**
