@@ -697,6 +697,8 @@ Therefore,
 
 # **Day 4: CMOS Noise Margin Robustness Evaluation**
 
+On the fourth day of the workshop, the robustness of a CMOS inverter in terms of noise margins was demonstrated. We learned the concept of noise margins, the different noise margin ranges and the concepts of Voh, Vih, Vil and Vol. Finally, equations of Noise Margin High (NMh) and Noise Margin Low (NMl) were derived in terms of Voh, Vih, Vil and Vol. During the lab activity, the Noise Margins were found for an inverter with (Wp/Lp) = (2.77).(Wn/Ln)
+
 ## **Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Noise Margin**
 
 ### **_What was learnt:_**
