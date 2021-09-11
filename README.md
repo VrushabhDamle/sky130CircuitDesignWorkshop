@@ -7,7 +7,7 @@ This is a five-day workshop focused towards CMOS circuit design and SPICE simula
 
 # **_INDEX:_**
 - [CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#cmos-circuit-design-and-spice-simulation-using-sky130-technology-workshop)
-    - [Brief Description of the course]()
+    - [Brief Description of the course](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#brief-description-of-the-course)
 - [INDEX](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#index)
 - [Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#day-1-basics-of-nmos-drain-current-id-vs-drain-to-source-voltage-vds)
   - [Part 1: Introduction to Circuit Design and SPICE simulations](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-1-introduction-to-circuit-design-and-spice-simulations)
