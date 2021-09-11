@@ -562,6 +562,13 @@ Figure 19. The snap shot of the terminal window for plotting the Vtc characteris
 
 Figure 20. The snap shot of the output window for plotting the Vtc characteristics of CMOS inverter
 
+- To find the switching threshold voltage (Vm), it is known that Vout = Vin so zoom in on the plot where roughly Vout = Vin by selecting the area of the plot by right clicking on the screen and dragging it to select the area.
+- Zoom twice or thrice until the point where Vm lies becomes almost certain.
+- Left click roughly on the point on the curve where Vm should approximately lie.
+- Values of x0 and y0 will now appear on the terminal window.
+- Since we are finding Vm, therefore x0 ~ y0 and hence x0=y0=Vm.
+
+
 For performing the transient analysis, the following code is required:
 ```
 *Model Description
@@ -598,6 +605,17 @@ Figure 21. The snap shot of the terminal window for performing the transient ana
 ![output window transient](https://user-images.githubusercontent.com/89193562/132863939-9f777f44-e10e-4bc3-a9a2-41e833dd465b.JPG)
 
 Figure 22. The snap shot of the output window for performing the transient analysis
+
+- To calculate the rise delay:
+    - Zoom on the part of the curve having fall of the input pulse and rise of the output pulse around voltage of (Vdd/2) by right clicking on the screen and dragging it to select the area.
+    - Now, left click on the rising edge of the output curve at (Vdd/2) to get a point x0,y0 on the terminal.
+    - Similarly, get the point at (Vdd/2) for falling edge of the input curve.
+    - The difference between the x-coordinate of the rising edge of the output curve and the falling edge of the input curve is the rise delay.
+- To calculate the falling delay:
+    - Zoom on the part of the curve having rise of the input pulse and fall of the output pulse around voltage of (Vdd/2) by right clicking on the screen and dragging it to select the area.
+    - Now, left click on the falling edge of the output curve at (Vdd/2) to get a point x0,y0 on the terminal.
+    - Similarly, get the point at (Vdd/2) for rising edge of the input curve.
+    - The difference between the x-coordinate of the falling edge of the output curve and the rising edge of the input curve is the fall delay.
 
 ## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Switching threshold**
 
