@@ -1,5 +1,7 @@
 # CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
 
+![CMOS-Workshop-Banner](https://user-images.githubusercontent.com/89193562/132950141-4135f3d2-5ec6-477f-899c-3c307ddcaf1d.jpg)
+
 This is a five-day workshop focused towards CMOS circuit design and SPICE simulation using SKY130 technology. The content of the workshop is divided across the five days in a smart way which allows the user to grasp all the concepts if the workshop is attended dedicatedly. On the first day of the workshop the emphasis was on the basics of NMOS Drain current (Id), Drain-to-source Voltage (Vds) and the plot between the two of them. The second day focusses primarily on velocity saturation and basics of CMOS inverter VTC and the plots between Id and Vgs and the plot for determining the value of Vt. The third was concentrated on CMOS switching threshold and dynamic simulations, where a lot of equations were derived to find the relationships between the (W/L) ratios of the PMOS and NMOS and the switching threshold voltage (Vm).
 
 # **_INDEX:_**
