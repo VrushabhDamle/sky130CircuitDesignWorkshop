@@ -650,7 +650,7 @@ Therefore,
 - We experimented with the sizes of the PMOS with respect to the sizes of NMOS and came up with the following conclusions
 
 |(Wp/Lp)|x.(Wn/Ln)|Rise Delay|Fall Delay|Vm   |
-|---    |---      |---       |---       |---  |
+|:---:  |:---:    |:---:     |:---:     |:---:|
 |(Wp/Lp)|1.(Wn/Ln)|148pS     |71pS      |0.99V|
 |(Wp/Lp)|2.(Wn/Ln)|80pS      |76pS      |1.2V |
 |(Wp/Lp)|3.(Wn/Ln)|57pS      |80pS      |1.25V|
