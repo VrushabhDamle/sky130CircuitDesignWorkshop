@@ -703,6 +703,15 @@ Therefore,
 
 ![nmh and nml equations](https://user-images.githubusercontent.com/89193562/132941048-4d1a35eb-24bc-44dd-ba25-5a5abecd73bb.JPG)
 
+- The noise margins of the inverter at different values of Wp/Lp were observed and they were as follows:
+
+|(Wp/Lp)|x.(Wn/Ln)|NMh       |NMl       |Vm   |
+|:---:  |:---:    |:---:     |:---:     |:---:|
+|(Wp/Lp)|1.(Wn/Ln)|0.3       |0.3       |0.99V|
+|(Wp/Lp)|2.(Wn/Ln)|0.35      |0.3       |1.2V |
+|(Wp/Lp)|3.(Wn/Ln)|0.4       |0.3       |1.25V|
+|(Wp/Lp)|4.(Wn/Ln)|0.42      |0.27      |1.35V|
+|(Wp/Lp)|5.(Wn/Ln)|0.42      |0.27      |1.4V |
 
 ### **_Lab Activity:_**
 
