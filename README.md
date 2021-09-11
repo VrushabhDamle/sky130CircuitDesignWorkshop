@@ -647,9 +647,7 @@ Therefore,
     - Vt is the threshold voltage
     - Vdd is the supply voltage
 
-- In clock inverter sizes of PMOS and NMOS should be exactly the same
-
-- We experimented with the sizes of the PMOS and came up with the following conclusions
+- We experimented with the sizes of the PMOS with respect to the sizes of NMOS and came up with the following conclusions
 
 |(Wp/Lp)|x.(Wn/Ln)|Rise Delay|Fall Delay|Vm   |
 |---    |---      |---       |---       |---  |
@@ -659,8 +657,13 @@ Therefore,
 |(Wp/Lp)|4.(Wn/Ln)|45pS      |84pS      |1.35V|
 |(Wp/Lp)|5.(Wn/Ln)|37pS      |88pS      |1.4V |
 
+- We can make some conclusions from the above table:
+    - When `(Wp/Lp) = 2.(Wn/Ln)`, there is an approximately equal rise-fall delay
+    - Due to the equal rise-fall delay, `(Wp/Lp) = 2.(Wn/Ln)` create typical characteristics for a clock inverter/buffer
+    - The conditions other than `(Wp/Lp) = 2.(Wn/Ln)` can still be used as regular inverters/buffers and these can be preferred for data path
+    - Switching Threshold for `(Wp/Lp) = 2.(Wn/Ln)` and `(Wp/Lp) = 3.(Wn/Ln)` is very small. Similarly, switching threshold for `(Wp/Lp) = 4.(Wn/Ln)` and `(Wp/Lp) = 5.(Wn/Ln)` is also very small
+
 - When Wp/Lp is increased, the rise delay is isgnificantly reduced because time required for the output capacitor to charge decreases significantly and the reason is the availability of a bigger area to charge the capacitor.
-- When Wp/Lp is 2.(Wn/Ln) there is approximately equal rise-fall delay
 - Ron(PMOS) ~ 2.5\*Ron(NMOS)
 
 # **Day 4: CMOS Noise Margin Robustness Evaluation**
