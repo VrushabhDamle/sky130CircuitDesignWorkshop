@@ -260,6 +260,9 @@ Figure 5. The snap shot of the terminal window for Day1 activity
 
 Figure 6. The snap shot of the output window of the Day1 activity
 
+- To observe the value of Id at any point on the curve, then left click on the point on the curve to be observed.
+- Now on the terminal window, some values of x0 and y0 should appear.
+- The value of Id corresponds to the value of y0 in ampere.
 
 # **Day 2: Velocity Saturation and basics of CMOS inverter VTC**
 
@@ -363,6 +366,10 @@ Figure 9. The snap shot of terminal window for plot between Ids and Vds for shor
 ![plot window with vgs sweep](https://user-images.githubusercontent.com/89193562/132675399-e8f69dc7-f222-4e91-81fc-4cb2639213d4.JPG)
 
 Figure 10. The snap shot of output window for plot between Ids and Vds for short channel device
+
+- To observe the value of Id at any point on the curve, then left click on the point on the curve to be observed.
+- Now on the terminal window, some values of x0 and y0 should appear.
+- The value of Id corresponds to the value of y0 in ampere.
 
 To calculate Threshold voltage for Id versus Vgs curve, the following SPICE code is required:
 ```
