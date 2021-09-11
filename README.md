@@ -739,6 +739,14 @@ display
 .end
 ```
 
+![terminal window noise margin](https://user-images.githubusercontent.com/89193562/132941122-635e2440-e1a6-4df2-9218-480b45ddf61d.JPG)
+
+
+
+![output window noise margin](https://user-images.githubusercontent.com/89193562/132941130-48c2c93d-3ad2-4a9c-acd1-c7caec2bf87c.JPG)
+
+
+
 # **Day 5: CMOS Power supply and device variation robustness evaluation**
 
 ## **Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Power Supply Variation**
