@@ -672,6 +672,7 @@ Therefore,
 
 ### **_What was learnt:_**
 
+- 
 ### **_Lab Activity:_**
 
 # **Day 5: CMOS Power supply and device variation robustness evaluation**
