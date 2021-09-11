@@ -458,7 +458,7 @@ Figure 15. The snap shot of load curve for NMOS transistor in CMOS inverter
 
 -	Superimposing the load curve of NMOS on the load curve of PMOS and plotting Vin vs Vout from the graph obtained
 
-![overlap](https://user-images.githubusercontent.com/89193562/132680555-d5eeedda-33ba-4d71-b885-c8779c9d0b50.JPG)
+![1631359704747](https://user-images.githubusercontent.com/89193562/132946435-09010251-dd7e-4af4-b791-ea5655dd171f.jpg)
 
 Figure 16. The snap shot of superimposed load curve of NMOS and load curve of PMOS
 
