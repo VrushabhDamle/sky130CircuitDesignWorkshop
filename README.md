@@ -845,3 +845,4 @@ Figure 30. The snap shot of the output window for calculating the Noise Margins
 # References
 
 - [https://github.com/kunalg123/sky130CircuitDesignWorkshop](https://github.com/kunalg123/sky130CircuitDesignWorkshop)
+- [https://www.vsdiat.com/](https://www.vsdiat.com/)
