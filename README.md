@@ -210,7 +210,7 @@ Figure 4. The snap shot of SPICE netlist of the above NMOS
 
 ### **_Lab Activity:_**
 
-For performing the Day 1 Lab activity we write the following code:
+For performing the Day 1 Lab activity we need the following code:
 ```
 *Model Description
 .param temp=27
@@ -705,6 +705,39 @@ Therefore,
 
 
 ### **_Lab Activity:_**
+
+For performing the Day 4 Lab Activity we need the following code
+```
+*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+
+.dc Vin 0 1.8 0.01
+
+.control
+run
+setplot dc1
+display
+.endc
+
+.end
+```
 
 # **Day 5: CMOS Power supply and device variation robustness evaluation**
 
