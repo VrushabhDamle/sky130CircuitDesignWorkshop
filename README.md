@@ -863,6 +863,42 @@ Figure 30. The snap shot of the output window for calculating the Noise Margins
 - Thickness of poly-silicon layer is the gate length annd it defiens at which node we are (20nm, 30nm, 45nm, etc.).
 - Thickness of the P-diffusion layer is the width of the gate of the PMOS and the thickness of the N-diffusion layer is the width of the gate of the NMOS.
 - Width identifies overlap area between the diffusion layer and the poly-silicon layer.
+
+- Fabrication is basically a lab where we have a lot of things like chemicals, water, gases, etc. running and due to these the ideal structure is distorted.
+
+- Inverter Chain:
+    - When inverters are connected back-to-back they are collectively called as "Inverter Chain".
+    - In an inverter chain, the gates in the middle have same structures on both sides. So, it's very likely that this particular gate structure will have a repeated distortion because they are exposed to same kind of structures.
+    - In an inverter chain, gates in the middle will have a structure which is different from the gates at the ends because they might be connected to different devices that will impact the gates
+- Oxide Thickness:
+    - In an ideal oxidation process, the gate oxide thickness will be constant throughout the process.
+    - In real oxidation process, the gate oxide thickness will not be constant along the gate length.
+    - In an inverter chain, the gate oxide thickness can vary for each transistor.
+    - Oxide thickness directly affects the Id equation because Cox is dependant on it.
+
+- Strong PMOS:
+    - PMOS with less resistance (possibly least resistance if the size chosen is the greatest size possible)
+    - PMOS is wider in size (possibly widest PMOS available)
+- Weak NMOS:
+    - NMOS with high resistance (possibly highest resistance if the size chosen is the least size possible)
+    - NMOS is small in size (possibly smallest NMOS available)
+
+- Strong NMOS:
+    - NMOS with less resistance (possibly least resistance if the size chosen is the greatest size possible)
+    - NMOS is wider in size (possibly widest NMOS available)
+- Weak PMOS:
+    - PMOS with high resistance (possibly highest resistance if the size chosen is the least size possible)
+    - PMOS is small in size (possibly smallest PMOS available)
+
+- With the variation from Weak PMOS - Strong NMOS to Strong PMOS - Weak NMOS, the switching threshold varies from roughly 0.7V to 1.4V which is fairly acceptable because behavior of the inverter is intact
+- We can plot the variation if we move from Weak PMOS - Strong NMOS to Strong PMOS - Weak NMOS using SPICE simulation and the plot is given below:
+
+
+- From the plot given above, we can make the following conclusions:
+    - Variation in Noise Margin high (NMh) is roughly from 2.5V to 2.1V which is a variation of 400mV which is good enough to filter out high voltage variations
+    - Variation in Noise Margin low (NMl) is roughly from 0V to 0.3V which is a variation of 300mV which is good enough to filter out low voltage variations
+    - Overall, variation in the Noise margins is low and this leaves the operation of the gate intact.
+
 ### **_Lab Activity:_**
 
 # References
