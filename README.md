@@ -40,6 +40,7 @@ This is a five-day workshop focused towards CMOS circuit design and SPICE simula
     - [Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Device Variation](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-2-static-behavior-evaluation---cmos-inverter-robustness-device-variation)
         - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-9)
         - [Lab Activity](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#lab-activity-5)
+- [Conclusion]()
 - [References](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#references)
 # **Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)**
 
@@ -988,6 +989,8 @@ Figure 33. The snap shot of terminal window to observe device variation
 ![output window device variation](https://user-images.githubusercontent.com/89193562/132985983-6313769f-5ef4-432d-87c9-ef39f7e572f0.JPG)
 
 Figure 34. The snap shot of output window to observe device variation
+
+# Conclusion
 
 # References
 
