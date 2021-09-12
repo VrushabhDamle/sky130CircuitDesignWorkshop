@@ -1002,6 +1002,14 @@ Figure 33. The snap shot of terminal window to observe device variation
 
 Figure 34. The snap shot of output window to observe device variation
 
+- Since the pfet width is very huge as compared to the nfet width, the plot is shifted towards right
+- To find the value of the switching threshold:
+    - Zoom in on the plot where Vin ~ Vout by right clicking and dragging the cursor to select the area
+    - Zoom until the value of switching threshold becomes almost certain
+    - Left click on the point where Vin is roughly equal to Vout
+    - A point `x0 = 0.988209, y0 = 0.988191` is obtained
+    - Since x0 ~ y0. Therefore, Switching Threshold Voltage = Vm = x0 = y0 = 0.988V
+
 # Conclusion
 
 # References
