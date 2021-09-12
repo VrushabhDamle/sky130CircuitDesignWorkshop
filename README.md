@@ -846,7 +846,23 @@ Figure 30. The snap shot of the output window for calculating the Noise Margins
 ## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Device Variation**
 
 ### **_What was learnt:_**
-
+- There are two sources for device variation:
+    - Etching Process Variation
+    - Oxide Thickness
+- Etching Process Variation:
+    - The etching process will define the structures in the layout of the CMOS inverter.
+    - Etching is a very important fabrication step
+    - It is the process that defines the structure (width and the height)
+    - Based on the structures that get defined by the process, it directly impacts the delay
+- In layout of the CMOS inverter we have:
+    - P-diffusion region which is indicated by green color.
+    - Poly-silicon area which is indicated by red color.
+    - Metal layer which is indicated by blue color.
+    - N-diffusion region indicated by yellow color.
+    - Contacts between two layers indicated by black crosses.
+- Thickness of poly-silicon layer is the gate length annd it defiens at which node we are (20nm, 30nm, 45nm, etc.).
+- Thickness of the P-diffusion layer is the width of the gate of the PMOS and the thickness of the N-diffusion layer is the width of the gate of the NMOS.
+- Width identifies overlap area between the diffusion layer and the poly-silicon layer.
 ### **_Lab Activity:_**
 
 # References
