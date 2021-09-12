@@ -890,6 +890,18 @@ Figure 31. The snap shot of the terminal window to observe the power supply vari
 
 Figure 32. The snap shot of the output window to observe the power supply variation
 
+- To calculate the gain for the given plot:
+    - Select the curve for which the gain is to be calculated (In this case, we chose the plot for 1.8V Vdd)
+    - Left click on the point where the slope of the curve is almost changing toward the top of the plot
+    - The point obtained was `x0 = 0.766667, y0 = 1.71351`
+    - Now, left click on the point where the slope of the curve is almost changing toward the bottom of the plot
+    - The point obtained was `x0 = 0.982667, y0 = 0.1` but for our convenience let us consider the coordinates of the point to be x1, y1
+    - Therefore, the point becomes `x1 = 0.982667, y1 = 0.1`
+    - Subtract y1 from y0. So, `y0 - y1 = 1.61351`
+    - Subtract x1 from x0. So, `x0 - x1 = -0.216`
+    - Now, gain = (y0-y1)/(x0-x1)
+    - Hence, `Gain(g) = |(1.61351)/(-0.216)| = |-7.46995| = 7.46995` 
+
 ## **Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Device Variation**
 
 ### **_What was learnt:_**
