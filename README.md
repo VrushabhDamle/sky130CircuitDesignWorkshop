@@ -40,7 +40,7 @@ This is a five-day workshop focused towards CMOS circuit design and SPICE simula
     - [Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Device Variation](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#part-2-static-behavior-evaluation---cmos-inverter-robustness-device-variation)
         - [What was learnt](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#what-was-learnt-9)
         - [Lab Activity](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#lab-activity-5)
-- [Conclusion](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#conclusion)
+- [Conclusion and Opinion](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#conclusion)
 - [References](https://github.com/VrushabhDamle/sky130CircuitDesignWorkshop/blob/main/README.md#references)
 # **Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)**
 
@@ -1018,7 +1018,9 @@ Figure 36. The snap shot of output window to observe device variation
     - A point `x0 = 0.988209, y0 = 0.988191` is obtained
     - Since x0 ~ y0. Therefore, Switching Threshold Voltage = Vm = x0 = y0 = 0.988V
 
-# Conclusion
+# Conclusion and Opinion
+
+During the tenure of the course, I was able to explore MOSFETs and CMOS inverter to a great extent. I learnt about various ways to change the characteristics of an inverter. I also learnt the way to create a SPICE deck from a SPICE netlist and perform simulation. I also got to learn the CMOS voltage transfer characteristics and factors that affect them. Finally, I learnt static behavior evaluation and all of its sub-categories. Overall, the workshop ignited a spark in mind to explore MOSFETs and to master their basic concepts. The experience of the “Lab Activities” was also great and the plots obtained made me think about the changes that would happen if I change certain parameters in the SPICE code. Finally, the workshop helped me in a lot of ways and my experience with VLSI System Design was fabulous because of the constant help and support I received from them. 
 
 # References
 
