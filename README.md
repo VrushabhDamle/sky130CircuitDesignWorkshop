@@ -925,6 +925,14 @@ Figure 32. The snap shot of the output window to observe the power supply variat
 
 - Fabrication is basically a lab where we have a lot of things like chemicals, water, gases, etc. running and due to these the ideal structure is distorted.
 
+![1631448142647](https://user-images.githubusercontent.com/89193562/132986827-95402e8e-0b25-40ef-b1fa-8122c6dcba7b.jpg)
+
+Figure 33. The snap shot of the single inverter
+
+![1631448142640](https://user-images.githubusercontent.com/89193562/132986894-f6d2a87b-acf9-4bd9-8b5d-a1f98e343a39.jpg)
+
+Figure 34. The snap shot of the inverter chain
+
 - Inverter Chain:
     - When inverters are connected back-to-back they are collectively called as "Inverter Chain".
     - In an inverter chain, the gates in the middle have same structures on both sides. So, it's very likely that this particular gate structure will have a repeated distortion because they are exposed to same kind of structures.
@@ -996,11 +1004,11 @@ display
 
 ![terminal window device variation](https://user-images.githubusercontent.com/89193562/132985962-a05f4559-ce5d-4af5-bf2e-67e091c577dd.JPG)
 
-Figure 33. The snap shot of terminal window to observe device variation
+Figure 35. The snap shot of terminal window to observe device variation
 
 ![output window device variation](https://user-images.githubusercontent.com/89193562/132985983-6313769f-5ef4-432d-87c9-ef39f7e572f0.JPG)
 
-Figure 34. The snap shot of output window to observe device variation
+Figure 36. The snap shot of output window to observe device variation
 
 - Since the pfet width is very huge as compared to the nfet width, the plot is shifted towards right
 - To find the value of the switching threshold:
