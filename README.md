@@ -831,6 +831,8 @@ Figure 30. The snap shot of the output window for calculating the Noise Margins
 
 # **Day 5: CMOS Power supply and device variation robustness evaluation**
 
+On the fifth and final day of the workshop, we observed the effect of variation of the power supply on the gain of the device and its advantages and disadvantages. We also observed the changes that occur in a device due to manufacturing processes like the etching process and the oxide layer thickness. We also observed the differences between strong PMOS, weak PMOS, strong NMOS and weak NMOS and the variation that occur when we move from Weak PMOS – Strong NMOS to Strong PMOS – Weak NMOS.
+
 ## **Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Power Supply Variation**
 
 ### **_What was learnt:_**
