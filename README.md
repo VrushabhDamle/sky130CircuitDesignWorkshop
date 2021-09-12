@@ -1027,3 +1027,6 @@ During the tenure of the course, I was able to explore MOSFETs and CMOS inverter
 - [https://github.com/kunalg123/sky130CircuitDesignWorkshop](https://github.com/kunalg123/sky130CircuitDesignWorkshop)
 - [https://www.vsdiat.com/](https://www.vsdiat.com/)
 - [https://www.vlsisystemdesign.com/](https://www.vlsisystemdesign.com/)
+- [https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
+- [https://github.com/kunalg123/vsdflow](https://github.com/kunalg123/vsdflow)
