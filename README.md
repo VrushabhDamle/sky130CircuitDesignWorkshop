@@ -630,7 +630,7 @@ Figure 22. The snap shot of the output window for performing the transient analy
 
 - Switching Threshold (Vm)
     - It is the point where Vin = Vout
-    - Graphical method to find Vm is to draw a line across the graph of output voltage to input voltage of a CMOS inverter starting at the origin and ending at the opposite diagonal of the plot. Now, the x-coordinate of the point of intersection of this line and the curve is the switching threshold.
+    - Graphical method to find Vm is to draw a line across the graph of output voltage to input voltage of a CMOS inverter starting at the origin and ending at the opposite diagonal of the plot (basically a line with a 45 degree inclination with the x-axis). Now, the x-coordinate of the point of intersection of this line and the curve is the switching threshold.
     - Vm when (Wp/Lp) is 1.5 is approximately equal to 0.98V and when (Wp/Lp) is 3.75 it is approximately equal to 1.2V
     - Wp and Lp in the above section are Width of PMOS channel and Length of PMOS channel
     - At Vm, both PMOS and NMOS are turned 'ON' because Vgs almost crossed the threshold region for both of them.
