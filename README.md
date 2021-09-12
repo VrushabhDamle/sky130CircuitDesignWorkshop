@@ -833,6 +833,13 @@ Figure 30. The snap shot of the output window for calculating the Noise Margins
 ## **Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Power Supply Variation**
 
 ### **_What was learnt:_**
+- Whenever we move from 250nm nodes to lower nodes like 20nm or so on, we scale our supply voltage as well. For example, if things were working at 1V sometime back, now they will be operating at 0.7V
+- A CMOS inverter can be operated at 0.5V as well and it has it's own advantages and disadvantages:
+    - Advantages of using 0.5V supply:
+        - There is a significant increase in gain (close to 50% improvement)
+        - There is a significant reduction in energy consumption (close to 90% improvement)
+    - Disadvantages of using 0.5V supply:
+        - Performance impact (0.5V supply rising and falling edge is insufficient to completely charge or discharge the load capacitance)
 
 ### **_Lab Activity:_**
 
